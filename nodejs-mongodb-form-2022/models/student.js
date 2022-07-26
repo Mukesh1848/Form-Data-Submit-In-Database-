@@ -9,7 +9,7 @@ const studentSchema = new mongoose.Schema({
 })
 
 // Model 
-const studentModel = mongoose.model("student",studentSchema);
+const studentModel = mongoose.model("collectionName",studentSchema);
 
 
 export default studentModel;
